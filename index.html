@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Muchamat Diyan Wicaksono</title>
+  <link rel="icon" type="image/jpeg" href="images/foto-profil.png">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <!-- Header / Navigation -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-container">
+      <a href="#home" class="nav-brand">
+        <span class="brand-code">&lt;/&gt;</span>
+        <span class="brand-text">PORTOFOLIO</span>
+      </a>
+
+      <!-- Mobile Hamburger Button -->
+      <button class="nav-toggle" id="navToggle" aria-label="Buka navigasi menu" aria-expanded="false">
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+      </button>
+
+      <nav class="nav-menu" id="navMenu">
+        <ul class="nav-list">
+          <li><a href="#about" class="nav-link">Tentang</a></li>
+          <li><a href="#skills" class="nav-link">Skill</a></li>
+          <li><a href="#projects" class="nav-link">Proyek</a></li>
+          <li><a href="#experience" class="nav-link">Pengalaman</a></li>
+          <li><a href="#education" class="nav-link">Pendidikan</a></li>
+          <li><a href="#contact" class="nav-link">Kontak</a></li>
+        </ul>
+        <div class="nav-action">
+          <a href="#contact" class="btn btn-outline btn-sm">Hubungi Saya</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero / Home Section -->
+    <section class="hero-section" id="home">
+      <div class="container hero-container">
+        <div class="hero-content">
+          <div class="status-badge">
+            <span class="status-dot"></span>
+            <span>ONLINE</span>
+          </div>
+          <h1 class="hero-title">
+            <span class="hero-greeting">HALLO, SAYA</span>
+            <span class="hero-name">
+              MUCHAMAT DIYAN
+              <span class="name-highlight">WICAKSONO.</span>
+            </span>
+          </h1>
+          <p class="hero-subtitle">
+            Lulusan D4 Teknik Telekomunikasi dengan fokus pada pengembangan aplikasi web, logika bisnis terstruktur, dan
+            pengelolaan basis data menggunakan Laravel dan Python.
+          </p>
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary">Lihat Proyek</a>
+            <a href="#contact" class="btn btn-secondary">Kontak &amp; Diskusi</a>
+          </div>
+
+          <div class="hero-tech-stack">
+            <span class="tech-label">Core Stack:</span>
+            <div class="tech-chips">
+              <span class="chip">Laravel</span>
+              <span class="chip">Python</span>
+              <span class="chip">REST API</span>
+              <span class="chip">MySQL</span>
+              <span class="chip">PostgreSQL</span>
+              <span class="chip">Docker</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="profile-card">
+
+            <div class="profile-image-wrapper">
+              <img src="images/foto-profil.png" alt="Foto Muchamat Diyan Wicaksono" class="profile-image">
+            </div>
+
+            <div class="profile-info">
+              <span class="profile-status">
+                <span class="status-dot"></span>
+                OPEN TO WORK
+              </span>
+
+              <h2>Muchamat Diyan Wicaksono</h2>
+
+              <p class="profile-role">
+                Backend Developer
+              </p>
+
+              <div class="profile-divider"></div>
+
+              <div class="profile-skills">
+                <span>Laravel</span>
+                <span>Python</span>
+                <span>REST API</span>
+                <span>MySQL</span>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section class="section about-section" id="about">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">About Me</span>
+          <h2 class="section-title">Latar Belakang &amp; Pendekatan Kerja</h2>
+        </div>
+        <div class="about-grid">
+          <div class="about-text">
+            <p>
+              Saya adalah lulusan <strong>D4 Teknik Telekomunikasi</strong> yang memiliki minat mendalam pada rekayasa
+              perangkat lunak dengan spesialisasi <strong>Backend Development</strong>. Latar belakang telekomunikasi
+              memberikan saya pemahaman yang kokoh tentang bagaimana transmisi data, protokol jaringan, dan komunikasi
+              client-server bekerja.
+            </p>
+            <p>
+              Dalam pengembangan backend, saya terbiasa menggunakan <strong>Laravel</strong> dan <strong>Python</strong>
+              untuk merancang alur logika aplikasi serta menyediakan REST API yang konsisten. Saya senang memecahkan
+              tantangan integrasi data, memastikan integritas relasi pada database (MySQL &amp; PostgreSQL), serta
+              menulis kode backend yang bersih dan mudah dipelihara.
+            </p>
+            <div class="about-highlights">
+              <div class="highlight-item">
+                <div class="highlight-icon">&#9881;</div>
+                <div>
+                  <h4>API &amp; System Integration</h4>
+                  <p>Membangun endpoint RESTful terstruktur dengan autentikasi dan penanganan status respons yang rapi.
+                  </p>
+                </div>
+              </div>
+              <div class="highlight-item">
+                <div class="highlight-icon">&#128452;</div>
+                <div>
+                  <h4>Database Design &amp; Integrity</h4>
+                  <p>Merancang skema relasional di MySQL &amp; PostgreSQL dengan menjaga validitas transaksi data.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="about-meta-card">
+            <h3 class="meta-title">Ringkasan Profil</h3>
+            <ul class="meta-list">
+              <li>
+                <span class="meta-label">Target Role:</span>
+                <span class="meta-value">Backend Developer / Software Engineer</span>
+              </li>
+              <li>
+                <span class="meta-label">Pendidikan:</span>
+                <span class="meta-value">D4 Teknik Telekomunikasi</span>
+              </li>
+              <li>
+                <span class="meta-label">Framework Utama:</span>
+                <span class="meta-value">Laravel</span>
+              </li>
+              <li>
+                <span class="meta-label">Bahasa:</span>
+                <span class="meta-value">Python, PHP</span>
+              </li>
+              <li>
+                <span class="meta-label">Database:</span>
+                <span class="meta-value">MySQL, PostgreSQL</span>
+              </li>
+              <li>
+                <span class="meta-label">Lingkungan:</span>
+                <span class="meta-value">Git, Docker</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="section skills-section" id="skills">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Tech Stack</span>
+          <h2 class="section-title">Keahlian &amp; Teknologi</h2>
+          <p class="section-desc">Teknologi yang saya gunakan secara langsung dalam membangun aplikasi dan layanan
+            backend:</p>
+        </div>
+
+        <div class="skills-grid">
+          <div class="skill-card">
+            <div class="skill-category-header">
+              <span class="skill-badge-num">01</span>
+              <h3>Programming Languages</h3>
+            </div>
+            <ul class="skill-items">
+              <li>
+                <span class="skill-name">Python</span>
+                <span class="skill-note">Scripting &amp; Data Services</span>
+              </li>
+              <li>
+                <span class="skill-name">PHP</span>
+                <span class="skill-note">Bahasa dasar ekosistem Laravel</span>
+              </li>
+            </ul>
+          </div>
+
+          <div class="skill-card">
+            <div class="skill-category-header">
+              <span class="skill-badge-num">02</span>
+              <h3>Backend Framework</h3>
+            </div>
+            <ul class="skill-items">
+              <li>
+                <span class="skill-name">Laravel</span>
+                <span class="skill-note">Routing, MVC, Eloquent ORM, Auth</span>
+              </li>
+              <li>
+                <span class="skill-name">Python Backend</span>
+                <span class="skill-note">Penanganan aliran data &amp; modul backend</span>
+              </li>
+            </ul>
+          </div>
+
+          <div class="skill-card">
+            <div class="skill-category-header">
+              <span class="skill-badge-num">03</span>
+              <h3>Databases</h3>
+            </div>
+            <ul class="skill-items">
+              <li>
+                <span class="skill-name">MySQL</span>
+                <span class="skill-note">Relasi tabel, CRUD, manajemen stok inventaris</span>
+              </li>
+              <li>
+                <span class="skill-name">PostgreSQL</span>
+                <span class="skill-note">Penyimpanan terstruktur data monitoring</span>
+              </li>
+            </ul>
+          </div>
+
+          <div class="skill-card">
+            <div class="skill-category-header">
+              <span class="skill-badge-num">04</span>
+              <h3>API &amp; Architecture</h3>
+            </div>
+            <ul class="skill-items">
+              <li>
+                <span class="skill-name">REST API</span>
+                <span class="skill-note">Autentikasi, validasi request, struktur JSON</span>
+              </li>
+            </ul>
+          </div>
+
+          <div class="skill-card">
+            <div class="skill-category-header">
+              <span class="skill-badge-num">05</span>
+              <h3>Tools &amp; DevOps</h3>
+            </div>
+            <ul class="skill-items">
+              <li>
+                <span class="skill-name">Git</span>
+                <span class="skill-note">Version control &amp; manajemen alur kerja kode</span>
+              </li>
+              <li>
+                <span class="skill-name">Docker</span>
+                <span class="skill-note">Kontainerisasi lingkungan sistem backend</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="section projects-section" id="projects">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Selected Works</span>
+          <h2 class="section-title">Portofolio Proyek Backend</h2>
+          <p class="section-desc">Proyek yang pernah saya bangun untuk kebutuhan akademik, pribadi, dan pengembangan
+            sistem nyata:</p>
+        </div>
+
+        <div class="project-list">
+          <!-- Project 1: REST API Mobile -->
+          <article class="project-card featured">
+            <div class="project-header">
+              <div class="project-badges">
+                <span class="priority-pill">Prioritas Utama</span>
+                <span class="tag-pill">Mobile Backend Service</span>
+              </div>
+              <h3 class="project-title">REST API untuk Aplikasi Mobile</h3>
+            </div>
+
+            <div class="project-body">
+              <div class="project-detail-block">
+                <h4 class="detail-label">Overview</h4>
+                <p>Layanan backend terpusat yang menyediakan endpoint RESTful API terstruktur dan aman untuk melayani
+                  operasi serta pertukaran data pada aplikasi mobile.</p>
+              </div>
+
+              <div class="project-grid-two">
+                <div class="project-detail-block">
+                  <h4 class="detail-label">Tantangan &amp; Solusi</h4>
+                  <p>Klien mobile memerlukan antarmuka komunikasi data yang aman, konsisten, dan mudah diparsing.
+                    Solusinya adalah membangun arsitektur endpoint dengan validasi ketat, autentikasi teruji, dan respon
+                    JSON terstandardisasi.</p>
+                </div>
+
+                <div class="project-detail-block">
+                  <h4 class="detail-label">Peran &amp; Kontribusi</h4>
+                  <p>Sebagai Backend Developer: mendesain kontrak API, membuat alur autentikasi pengguna, membangun
+                    endpoint CRUD data, dan menghubungkannya ke database MySQL.</p>
+                </div>
+              </div>
+
+              <div class="project-features">
+                <h4 class="detail-label">Fitur Utama</h4>
+                <ul class="feature-bullets">
+                  <li>Endpoint Autentikasi Pengguna (Login &amp; Registrasi).</li>
+                  <li>Endpoint Pengelolaan Data (CRUD) dengan validasi request payload.</li>
+                  <li>Standardisasi respons HTTP status code dan error handling yang jelas.</li>
+                </ul>
+              </div>
+
+              <div class="project-meta-row">
+                <div class="project-tech">
+                  <span class="tech-tag">Laravel</span>
+                  <span class="tech-tag">MySQL</span>
+                  <span class="tech-tag">REST API</span>
+                  <span class="tech-tag">Git</span>
+                </div>
+                <div class="project-links">
+                  <a href="#contact" class="link-btn">[Link GitHub Repository]</a>
+                  <span class="link-muted">Demo: [Belum diisi]</span>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 2: Sistem Inventaris -->
+          <article class="project-card">
+            <div class="project-header">
+              <div class="project-badges">
+                <span class="tag-pill">Web Application</span>
+                <span class="tag-pill">Data Management</span>
+              </div>
+              <h3 class="project-title">Sistem Informasi Inventaris Berbasis Web</h3>
+            </div>
+
+            <div class="project-body">
+              <div class="project-detail-block">
+                <h4 class="detail-label">Overview</h4>
+                <p>Aplikasi web untuk pencatatan dan pengelolaan stok barang, klasifikasi kategori, serta pelacakan
+                  riwayat transaksi inventaris barang.</p>
+              </div>
+
+              <div class="project-grid-two">
+                <div class="project-detail-block">
+                  <h4 class="detail-label">Tantangan &amp; Solusi</h4>
+                  <p>Pencatatan barang yang rawan inkonsistensi hitungan diselesaikan dengan merancang alur transaksi
+                    terpadu di backend agar stok bertambah atau berkurang secara otomatis dan akurat setiap transaksi
+                    tercatat.</p>
+                </div>
+
+                <div class="project-detail-block">
+                  <h4 class="detail-label">Peran &amp; Kontribusi</h4>
+                  <p>Mengerjakan sisi <strong>Backend dan Database</strong>: merancang skema relasi database relasional
+                    di MySQL, mengimplementasikan modul autentikasi login, serta menulis logika bisnis transaksi barang.
+                  </p>
+                </div>
+              </div>
+
+              <div class="project-features">
+                <h4 class="detail-label">Fitur Utama</h4>
+                <ul class="feature-bullets">
+                  <li>Autentikasi akun dan sistem hak akses pengguna.</li>
+                  <li>Manajemen master data barang dan pengelompokan kategori.</li>
+                  <li>Manajemen penyesuaian stok real-time saat transaksi.</li>
+                  <li>Pencatatan riwayat transaksi barang masuk dan keluar.</li>
+                </ul>
+              </div>
+
+              <div class="project-meta-row">
+                <div class="project-tech">
+                  <span class="tech-tag">Laravel</span>
+                  <span class="tech-tag">MySQL</span>
+                  <span class="tech-tag">Git</span>
+                </div>
+                <div class="project-links">
+                  <a href="#contact" class="link-btn">[Link GitHub Repository]</a>
+                  <span class="link-muted">Demo: [Belum diisi]</span>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 3: Monitoring Python -->
+          <article class="project-card">
+            <div class="project-header">
+              <div class="project-badges">
+                <span class="tag-pill">Data Processing</span>
+                <span class="tag-pill">Python Backend</span>
+              </div>
+              <h3 class="project-title">Sistem Monitoring Data</h3>
+            </div>
+
+            <div class="project-body">
+              <div class="project-detail-block">
+                <h4 class="detail-label">Overview</h4>
+                <p>Sistem backend yang dirancang menggunakan Python untuk menerima aliran data monitoring,
+                  mengorganisasikannya ke database PostgreSQL, dan menyediakan data tersebut kembali melalui API.</p>
+              </div>
+
+              <div class="project-grid-two">
+                <div class="project-detail-block">
+                  <h4 class="detail-label">Tantangan &amp; Solusi</h4>
+                  <p>Kebutuhan pemrosesan data berkala agar tersimpan terstruktur tanpa kehilangan data masukan.
+                    Diselesaikan dengan membuat pipeline penerimaan data di Python dan skema relasional PostgreSQL yang
+                    efisien.</p>
+                </div>
+
+                <div class="project-detail-block">
+                  <h4 class="detail-label">Peran &amp; Kontribusi</h4>
+                  <p>Sebagai Backend Developer: mengimplementasikan kode Python untuk penanganan data masuk
+                    (*ingestion*), skema tabel di PostgreSQL, serta endpoint penyedia data untuk keperluan monitoring.
+                  </p>
+                </div>
+              </div>
+
+              <div class="project-features">
+                <h4 class="detail-label">Fitur Utama</h4>
+                <ul class="feature-bullets">
+                  <li>Penerimaan data masukan dari klien/perangkat pengirim.</li>
+                  <li>Penyimpanan parameter monitoring ke dalam PostgreSQL.</li>
+                  <li>Penyediaan endpoint API untuk pembacaan dan analisis data monitoring.</li>
+                </ul>
+              </div>
+
+              <div class="project-meta-row">
+                <div class="project-tech">
+                  <span class="tech-tag">Python</span>
+                  <span class="tech-tag">PostgreSQL</span>
+                  <span class="tech-tag">REST API</span>
+                  <span class="tech-tag">Git</span>
+                </div>
+                <div class="project-links">
+                  <a href="#contact" class="link-btn">[Link GitHub Repository]</a>
+                  <span class="link-muted">Demo: [Belum diisi]</span>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section class="section experience-section" id="experience">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Career Track</span>
+          <h2 class="section-title">Pengalaman Pengembangan</h2>
+          <p class="section-desc">Jejak langkah dalam membangun aplikasi web dan sistem backend:</p>
+        </div>
+
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <div class="timeline-meta">
+                <span class="timeline-role">Backend Developer</span>
+                <span class="timeline-period">[Project-based / Akademik &amp; Mandiri]</span>
+              </div>
+              <p class="timeline-text">
+                Mengembangkan berbagai solusi sistem backend untuk aplikasi inventaris, monitoring data, dan layanan
+                REST API mobile. Bertanggung jawab langsung dalam perancangan skema database, penulisan logika bisnis,
+                autentikasi pengguna, serta integrasi endpoint API.
+              </p>
+              <div class="timeline-tags">
+                <span>Laravel</span>
+                <span>Python</span>
+                <span>MySQL</span>
+                <span>PostgreSQL</span>
+                <span>Git</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education Section -->
+    <section class="section education-section" id="education">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Background</span>
+          <h2 class="section-title">Pendidikan Formal</h2>
+        </div>
+
+        <div class="education-card">
+          <div class="edu-badge">&#127891;</div>
+          <div class="edu-info">
+            <div class="edu-header">
+              <h3 class="edu-degree">D4 TEKNIK TELEKOMUNIKASI</h3>
+              <span class="edu-period">[Tahun Kelulusan - Belum diisi]</span>
+            </div>
+            <p class="edu-school">Politeknik Elektronika Negeri Surabaya</p>
+            <p class="edu-desc">
+              Pendidikan di bidang Teknik Telekomunikasi membekali pemahaman teknis mendalam mengenai transmisi data,
+              protokol jaringan komputer, komunikasi data antarperangkat, serta logika pemecahan masalah teknis yang
+              menjadi fondasi utama dalam perancangan sistem backend dan arsitektur web modern.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section contact-section" id="contact">
+      <div class="container">
+        <div class="contact-box">
+          <div class="section-header text-center">
+            <span class="section-tag">Let's Connect</span>
+            <h2 class="section-title">Tertarik Berdiskusi atau Bekerja Sama?</h2>
+            <p class="section-desc">
+              Saya terbuka untuk kesempatan kerja paruh waktu maupun kontrak sebagai <strong>Backend Developer</strong>
+              / <strong>Software Engineer</strong>. Silakan hubungi saya melalui saluran berikut:
+            </p>
+          </div>
+
+          <div class="contact-cards">
+            <a href="mailto:email@anda.com" class="contact-card">
+              <span class="contact-icon">&#9993;</span>
+              <div class="contact-details">
+                <span class="contact-type">Email</span>
+                <span class="contact-value">wicaks7085@gmail.com</span>
+              </div>
+            </a>
+
+            <a href="#" class="contact-card">
+              <span class="contact-icon">&#128279;</span>
+              <div class="contact-details">
+                <span class="contact-type">LinkedIn</span>
+                <span class="contact-value">Muchamat Diyan Wicaksono</span>
+              </div>
+            </a>
+
+            <a href="#" class="contact-card">
+              <span class="contact-icon">&#128187;</span>
+              <div class="contact-details">
+                <span class="contact-type">GitHub</span>
+                <span class="contact-value">diyan-wicaks123</span>
+              </div>
+            </a>
+
+            <div class="contact-card no-link">
+              <span class="contact-icon">&#128205;</span>
+              <div class="contact-details">
+                <span class="contact-type">Lokasi</span>
+                <span class="contact-value">Kabupaten Sidoarjo, Jawa Timur</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <p>&copy; 2026 Portofolio Muchamat Diyan Wicaksono. Dibuat dengan HTML, CSS, dan JavaScript.</p>
+      <!-- <p class="footer-note">Fokus pada kejelasan kode, integritas data, dan arsitektur yang kokoh.</p> -->
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
